@@ -1,0 +1,8 @@
+seeds:
+  - name: "country_codes"
+    description: "Country code specification"
+    config:
+      full_refresh: false
+      column_types:
+        id: string
+      

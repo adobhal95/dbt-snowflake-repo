@@ -3,3 +3,4 @@ name: "dbt_first_project"
 # where my models written
 model-paths: ["models"]
 seed-paths:  ["seeds"]  
+analysis-paths: ["analyses"]

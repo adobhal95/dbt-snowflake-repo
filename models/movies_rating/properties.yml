@@ -15,3 +15,7 @@ models:
     description: "Fetch all the movies rating between 8 and 9"
     config:
       materialized: "view"
+  - name: "movies_rating_ending_rating"
+    description: "list all movies with rating between 7 and 9 and title ending with e"
+    config:
+      materialized: table

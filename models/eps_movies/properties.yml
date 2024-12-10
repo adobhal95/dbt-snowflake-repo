@@ -1,0 +1,5 @@
+models:
+  - name: "movies_name_ending"
+    description: "Name of the movie ending with t"
+    config:
+      materialized: epheremal

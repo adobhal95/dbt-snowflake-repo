@@ -1,0 +1,17 @@
+sources:
+  - name: "MOVIES_SNOWFLAKE"
+    database: "DB_MOVIES"
+    schema: "SC_MOVIES"
+    tables:
+      - name: "MOVIES"
+
+models:
+  - name: "movies_rating_7"
+    description: "Fetch all the movies rating rating between 7 and 8"
+    config:
+      materialized: "view"
+
+  - name: "movies_rating_8"
+    description: "Fetch all the movies rating between 8 and 9"
+    config:
+      materialized: "view"

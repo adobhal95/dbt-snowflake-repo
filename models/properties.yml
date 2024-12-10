@@ -1,0 +1,12 @@
+sources:
+  - name: "assignment"
+    database: "assignments"
+    schema: "assignment5"
+    tables:
+      - name: "raw_sales"
+
+models:
+  - name: "stg_country"
+    config:
+      materialized: table
+      database: "assignments"

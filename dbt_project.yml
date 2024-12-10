@@ -1,4 +1,5 @@
 # name of the project
-name: "dbt_first_project"
+name: "assignment_5"
 # where my models written
 model-paths: ["models"]
+seed-paths: ["seeds"]

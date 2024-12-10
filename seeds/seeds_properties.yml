@@ -1,0 +1,5 @@
+seeds:
+  - name: "country_lookup"
+    config:
+      full_refresh: true
+      database: "assignments"

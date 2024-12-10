@@ -1,4 +1,4 @@
 # name of the project
-name: "dbt_first_project"
+name: "dbt_assignment_4"
 # where my models written
 model-paths: ["models"]

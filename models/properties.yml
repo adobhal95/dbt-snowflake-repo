@@ -1,0 +1,15 @@
+sources:
+  - name: "sc_assignment"
+    database: "assignments"
+    schema: "assignment4"
+    tables:
+      - name: "raw_country"
+      - name: "raw_users"
+
+models:
+  - name: "src_users"
+    description: "model for user table"
+    config:
+      materialized: table
+      database: "assignments"
+      schema: "assignment4"

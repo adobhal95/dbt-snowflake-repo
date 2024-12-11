@@ -1,5 +1,5 @@
 # name of the project
-name: "assignment_5"
+name: "assignment5"
 # where my models written
 model-paths: ["models"]
 seed-paths: ["seeds"]

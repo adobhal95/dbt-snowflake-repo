@@ -1,0 +1,13 @@
+sources:
+  - name: "ASSIGNMENTS"
+    database: "ASSIGNMENTS"
+    schema: "ASSIGNMENT6"
+    tables:
+      - name: "ASSIGNMENT6"
+
+models:
+  - name: "dim_product"
+    config:
+      materialized: table
+      database: "assignments"
+      

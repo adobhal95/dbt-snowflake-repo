@@ -1,0 +1,6 @@
+sources:
+  - name: "DB_MOVIES"
+    database: "DB_MOVIES"
+    schema: "SC_MOVIES"
+    tables:
+      - name: "MOVIES"

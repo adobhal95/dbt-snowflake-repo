@@ -1,0 +1,11 @@
+models:
+  - name: dim_sales_data
+    config:
+      materialized: table
+      database: assignments
+sources:
+  - name: assignment
+    database: assignments
+    schema: assignment7
+    tables:
+      - name: assignment7

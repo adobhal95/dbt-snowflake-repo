@@ -1,4 +1,6 @@
 # name of the project
-name: "dbt_first_project"
+name: "assignment_7"
 # where my models written
 model-paths: ["models"]
+analysis-paths: ["analyses"]
+macro-paths: ["macros"]

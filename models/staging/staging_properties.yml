@@ -1,10 +1,7 @@
-version:  2
-
 sources:
-  - name: "Snowflake_Source_raw"
+  - name: "Snowflake_Source"
     database: DB_ECOMM
     schema: RAW
-    loader: Snowflake
     tables:
       - name: raw_customers
       - name: raw_orders

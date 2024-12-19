@@ -1,4 +1,4 @@
 # name of the project
-name: "Ecomm project"
+name: "Ecomm"
 # where my models written
 model-paths: ["models"]

@@ -1,1 +1,0 @@
-select * from db_movies.sc_movies.movies

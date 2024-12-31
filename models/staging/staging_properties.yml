@@ -6,3 +6,20 @@ sources:
       - name: raw_customers
       - name: raw_orders
       - name: raw_payments
+
+models:
+  - name: stg_customers
+    config:
+      materialized: table
+      database: db_ecomm
+      schema: stg_schema
+  - name: stg_orders
+    config:
+      materialized: table
+      database: db_ecomm
+      schema: stg_schema
+  - name: stg_payments
+    config:
+      materialized: table
+      database: db_ecomm
+      schema: stg_schema

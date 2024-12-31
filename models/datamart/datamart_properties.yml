@@ -1,0 +1,6 @@
+models:
+  - name: customers
+    config:
+      materialized: table
+      database: DB_ECOMM
+      schema: datamart
